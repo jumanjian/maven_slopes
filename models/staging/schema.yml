@@ -1,0 +1,13 @@
+
+version: 2
+
+sources:
+  - name: landing
+    database: jumanjian  
+    tables:
+      - name: resorts_maven
+      - name: snow_maven
+
+models:
+  - name: stg_resorts_raw
+    description: "Initial pull"
