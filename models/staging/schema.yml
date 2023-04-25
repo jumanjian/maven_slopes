@@ -9,5 +9,7 @@ sources:
       - name: snow_maven
 
 models:
-  - name: stg_resorts_raw
+  - name: stg_resorts
+    description: "Initial pull cleaned Resort column"
+  - name: stg_snow
     description: "Initial pull"
